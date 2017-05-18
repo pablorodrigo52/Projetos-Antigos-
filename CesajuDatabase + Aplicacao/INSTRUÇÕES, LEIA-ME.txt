@@ -1,0 +1,22 @@
+------- Modo de usar:
+
+  Para executar a aplicação basta clicar duas vezes no arquivo "CESAJUPrincipal.jar". Se tudo correr certo, você irá 
+diretamente para a tela inicial da aplicação. Nessa tela você irá ver uma tabela com todos os membros cadastrados
+atualmente na associação, podendo alternar entre as abas da tabela que serão as categorias "Efetivo, Honorario, 
+Beneficiario". Ao lado direito, terá o botão "Consultas" ao clicar nele, você terá acesso a todas as consultas que
+construi na etapa anterior do trabalho, basta escolher uma e checar a sua saída. O código fonte já está configurado
+com o host, banco de dados, username e password que estão na rede do DCOMP(WiFi-Dcomp e afins), você encontrará essas 
+configurações na classe "ConexaoBD.java".
+  
+  Na pasta "lib" você encontrará o driver o POSTGRES. O proprio NetBeans criou essa pasta e colocou o driver lá, portanto
+não a tirei.
+  
+  Na pasta "PROJETO (Código-Fonte, Classes)", você encontrará o codigo fonte de todas as classes do projeto.
+
+------(AVISO) A nível de curiosidade e caso aconteça com você quando for executar o arquivo jar:
+
+  Da primeira vez que fui rodar o aplicativo jar aqui na minha máquina fui recebido com um erro que dizia que o java
+tinha retornado uma exceção(não abria a aplicação, somente uma mensagem de erro). Isso aconteceu devido a eu ter 
+COMPILADO o programa com o JDK 8 e o JVM que tinha instalado na minha máquina era o 7. O java não deixa você executar
+algo que foi compilado em uma versão mais recente em uma JVM mais antiga, logo, para poder executar aqui, tive que
+atualizar o meu java para a versão 8.
